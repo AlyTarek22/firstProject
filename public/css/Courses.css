@@ -1,0 +1,67 @@
+.before_table {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-orange {
+    background-color: #c65020 !important;
+    color: WHITE !important;
+}
+
+.icon_eye {
+    color: #0d6efd;
+    border: 0.5px solid #0d6efd;
+    border-radius: 3px;
+
+    &:hover {
+        color: white;
+        background-color: #0d6efd;
+        /*border: #0d6efd;*/
+        transition-duration: 250ms;
+    }
+
+}
+
+.icon_edit {
+    color: #198754;
+    border: 0.5px solid #198754;
+    border-radius: 3px;
+
+    &:hover {
+        color: white;
+        background-color: #198754;
+        transition-duration: 250ms;
+
+    }
+}
+
+.icon_delete {
+    color: #dc3545;
+
+
+    border: 0.5px solid #dc3545;
+    border-radius: 3px;
+
+    &:hover {
+        color: white;
+        background-color: #dc3545;
+        /*border: #0d6efd;*/
+        transition-duration: 250ms;
+
+    }
+}
+
+th:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+
+}
+
+th:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
